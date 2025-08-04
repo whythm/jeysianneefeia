@@ -80,12 +80,12 @@ button:hover {
 }
 
 .circulo {
-    background: #017143;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    clip-path: circle(600px at right 800px);
-    z-index: -1;
+    position: fixed; /* Fica sempre visível */
+    bottom: 0;       /* Alinha na parte de baixo */
+    right: 0;        /* Alinha na parte direita */
+    width: 600px;
+    height: 600px;
+    background: #d744ab;
+    border-top-left-radius: 100%;
+    z-index: -1;     /* Fica atrás do conteúdo */
 }
